@@ -22,6 +22,8 @@ if (isset($_POST['login'])) {
 
         if ($user == $username && $pass == $password) {
             $_SESSION['username'] = $user;
+            $_SESSION['role'] = "Admin";
+
             $_SESSION['admin_logged_in'] = true;
             echo "<script>alert('Login success!');</script>";
             echo '<script type="text/javascript"> window.open("dashboard.php","_self");</script>';            //  On Successful Login redirects to home.php

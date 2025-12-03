@@ -177,6 +177,4 @@ $username = $_SESSION['username'];
         <!--**********************************
             Content body start
         ***********************************-->
-        <div class="content-body">
-
-            <div class="container-fluid">
+        <div class="cBody" style="margin-top: 90px; margin-left: 20px; margin-right: 20px;">
